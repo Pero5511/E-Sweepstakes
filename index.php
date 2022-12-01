@@ -53,6 +53,7 @@
         <div class="row">
             <div class="col-12 text-center">
                 <a align:center class="btn btn-dark" href="https://github.com/Pero5511/E-Sweepstakes/blob/main/Vizija.docx?raw=true">Link vizije</a>
+                <a align:center class="btn btn-dark" href="https://github.com/Pero5511/E-Sweepstakes/blob/main/img/ES-DB.jpg">Link baze podataka</a>
             </div>
         </div>
         <hr>
