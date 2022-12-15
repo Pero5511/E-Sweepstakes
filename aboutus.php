@@ -29,7 +29,7 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active text-dark bg-light" aria-current="page" href="index.php">Naslovna</a>
+          <a class="nav-link text-light" aria-current="page" href="index.php">Naslovna</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-light" href="#">Link</a>
@@ -38,7 +38,7 @@
           <a class="nav-link text-light" href="#">Log in</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light"  href="aboutus.php">O nama</a>
+          <a class="nav-link active text-dark bg-light"  href="aboutus.php">O nama</a>
         </li>
       </ul>
       <form class="form-inline" role="search">
@@ -55,41 +55,38 @@
         </div>
         <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-md-6 col-xs-12 col-sm-12 col-lg-3">
+                <img src="./img/perica.jpg" alt="" width="200">               
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12 col-lg-3">
                 <p>
-                    Ovo je naslovna stranica projekta iz kolegija Programiranje za internet kod profesora 
-                    dr. sc. Tomislava Volarić doc. Projekt se zove E-Sweepstakes i on je zamišljen kao internetska 
-                    stranica na kojoj će se moći igrati i pratiti nagradne igre. Tehnologije koje planiramo koristiti 
-                    u projektu su Bootstrap, JQuery, PHP Laravel, MySql, Apache.
+                    Zovem se Perica Topić, dolazim iz peteročlane obitelji. 
+                    Rođen sam u Slavonskom Brodu. Prešao sam iz osječkog FERIT-a 
+                    na SUM zbog novonastale situacije sa koronavirusom. Trenutno studiram 
+                    treću godinu na Mostarskom Sveučilištu, studij Informatika u dislociranom 
+                    centru Orašje. Osnovnu školu sam pohađao u svom mjestu, pod nazivom "Osnovna 
+                    škola Stjepana Radića". Srednju školu sam pohađao u glavnom gradu općine - Orašju,
+                    pod nazivom "Srednjoškolski centar fra Martina Nedića“. U slobodno vrijeme se bavim 
+                    trčanjem, volim šah, kvizove i društvene igre.
                 </p>
+                <a class="btn btn-dark" href="https://github.com/Pero5511" target="_blank">Github link</a>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
+            <div class="col-md-6 col-xs-12 col-sm-12 col-lg-3">
+                <img src="./img/martin.png" alt="" width="200">
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12 col-lg-3">
                 <p>
-                    Projekt je nastao kao ideja da se sve nagradne igre nalaze na jednom
-                    mjestu, te da korisnik može sve imati na jednom mjestu. Organizatorima 
-                    nudi pregled svih igara. Korisnik može pronaći kategoriju igre koju želi.
+                    Zovem se Martin Karalić. Rođen sam u Vinkovcima 18. rujna 2001. godine,
+                    te trenutno imam 21 godinu.Osnovnu školu sam završio u Cerni pod nazivom Osnovna 
+                    škola Matije Antun Reljković. Srednju školu sam pohađao u rodnom gradu i zove se 
+                    Tehnička škola Ruđera Bošković Vinkovci te završio za Tehničara za mehatroniku. 
+                    Trenutno studiram na Sveučilištu u Mostaru, FPMOZ studij Informatike. Neki od mojih 
+                    hobija su folklor i sviranje u TS Birtaši.
                 </p>
+                <a class="btn btn-dark" href="https://github.com/mkaralic1" target="_blank">Github link</a>
             </div>
+            </div>     
         </div>
-        <div class="row">
-            <div class="col">
-                <p>
-                    Svakome se barem jednom desilo da je propustio nagradnu igru ili da nikada nije saznao
-                    na nju. Te nam je cilj ovog projekta bio napraviti web stranicu na kojoj će se pratiti sve 
-                    aktualne nagradne igre, koje se nalaze na jednom mjestu te su prijave na njih vrlo jednostavne, 
-                    što će privući mnogo korisnika koji će nakon jedne odigrane igre ostat duže vrijeme.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center">
-                <a align:center class="btn btn-dark" href="https://github.com/Pero5511/E-Sweepstakes/blob/main/Vizija.docx?raw=true">Link vizije</a>
-                <a align:center class="btn btn-dark" href="https://github.com/Pero5511/E-Sweepstakes/blob/main/img/ES-DB.jpg">Link baze podataka</a>
-            </div>
-        </div>
-</div>
         <hr>
         <div class="container-fluid">
         <div class="row">
@@ -105,6 +102,7 @@
         </div>
     </div>
     
+   
     
    
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
